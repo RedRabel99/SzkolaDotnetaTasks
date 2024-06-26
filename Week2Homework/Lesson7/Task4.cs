@@ -7,7 +7,7 @@ public class Task4
         int year;
         Console.WriteLine("Enter a year");
         // TODO: Adjust previous input parsing instances to fit the style below 
-        if (!int.TryParse(Console.ReadLine(), out year))
+        if (!Int32.TryParse(Console.ReadLine(), out year))
         {
             Console.WriteLine("Given value is not a valid year.");
             return;
