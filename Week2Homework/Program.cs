@@ -22,7 +22,17 @@ public class Program
         Lesson7.Task10.SolveTask();
         Lesson7.Task11.SolveTask();
         Lesson7.Task12.SolveTask();
+        Lesson7.Task13.SolveTask();
+        Lesson8.Task1.SolveTask();
+        Lesson8.Task2.SolveTask();
+        Lesson8.Task3.SolveTask();
+        Lesson8.Task4.SolveTask();
+        Lesson8.Task5.SolveTask();
+        Lesson8.Task6.SolveTask();
+        Lesson8.Task7.SolveTask();
+        Lesson8.Task8.SolveTask();
+        Lesson8.Task9.SolveTask();
         */
-       Lesson7.Task13.SolveTask();
+        Lesson8.Task10.SolveTask();
     }
 }
