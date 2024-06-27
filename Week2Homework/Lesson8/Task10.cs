@@ -26,8 +26,8 @@ public class Task10
     }
     public static void SolveTask()
     {
-        Console.WriteLine("Enter two numbers to find LCM");
-        if (!Int32.TryParse(Console.ReadLine(), out int a))
+        Console.WriteLine("Enter two positive numbers to find LCM");
+        if (!Int32.TryParse(Console.ReadLine(), out int a) || a < 1)
         {
             Console.WriteLine("Given value is invalid");
             return;
